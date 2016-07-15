@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  #jumbotron
+   h1 BIENVENIDO A REPORTES DEL MUNICIPIO
+
+   #map
+
+
+
+
+   script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB3DWS3isQ8nUSRPQn-YbnCHBxAfUoFjc0&callback=initMap')
+
+  button(class="btn", onclick='getLocation()').
+   Be Awesome
+
+  input(type="submit", value="point")
+
+  #demo
